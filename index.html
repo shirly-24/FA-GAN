@@ -54,7 +54,8 @@ The experimental results reveal that FA-GAN outperforms the state-of-the-art app
 
 
 <h2>2. Seen speaker (LJSpeech)<a name="seen"></a></h2>
-<p>We train a multi-speaker multi-language vocoder as a universal vocoder (not fine-tune) using 295 hours of audio in 308 speakers containing Chinese and English. Here's demos that uses this universal vocoder to work with various TTS tasks.</p>
+<p>We train FA-GAN with the dataset of LJSpeech, and randomly devide the datatset into training set, validation set and test set, 80%, 10%, 10% respectively. 
+  Here are demos of baselines and our proposed FA-GAN in the scenarios of seen speaker. </p>>
 
 </table>
 <p>Demos: </p>
@@ -62,7 +63,7 @@ The experimental results reveal that FA-GAN outperforms the state-of-the-art app
   <thead>
     <tr>
       <th style="text-align: center"><strong>speaker</strong></th>
-      <th style="text-align: center"><strong>Gound Truth</strong></th>
+      <th style="text-align: center"><strong>Ground Truth</strong></th>
       <th style="text-align: center"><strong>HiFi-GAN</strong></th>
       <th style="text-align: center"><strong>Univnet-c32</strong></th>
       <th style="text-align: center"><strong>Avocodo</strong></th>
@@ -185,7 +186,7 @@ The experimental results reveal that FA-GAN outperforms the state-of-the-art app
   <thead>
     <tr>
       <th style="text-align: center"><strong>speaker</strong></th>
-      <th style="text-align: center"><strong>Gound Truth</strong></th>
+      <th style="text-align: center"><strong>Ground Truth</strong></th>
       <th style="text-align: center"><strong>HiFi-GAN</strong></th>
       <th style="text-align: center"><strong>Univnet-c32</strong></th>
       <th style="text-align: center"><strong>Avocodo</strong></th>
